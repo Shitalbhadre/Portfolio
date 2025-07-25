@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shital Namdev Bhadre | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ✅ NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🌾 Shital Bhadre</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ✅ HERO SECTION -->
+  <header class="hero">
+
+    <div class="balloon-bg">
+       <div class="balloon balloon1"></div>
+      <div class="balloon balloon2"></div>
+      <div class="balloon balloon3"></div>
+      <div class="balloon balloon4"></div>
+      <div class="balloon balloon5"></div>
+      <div class="balloon balloon6"></div>
+      <div class="balloon balloon7"></div>
+      <div class="balloon balloon8"></div>
+      <div class="balloon balloon9"></div>
+      <div class="balloon balloon10"></div>
+      <div class="balloon balloon11"></div>
+      <div class="balloon balloon12"></div>
+      <div class="balloon balloon13"></div>
+      <div class="balloon balloon14"></div>
+      <div class="balloon balloon15"></div>
+      <div class="balloon balloon16"></div>
+      
+    </div>
+    
+    <img src="shital.jpg" alt="Shital Bhadre" class="profile-img" />
+    <h1 class="my-name">Shital Namdev Bhadre</h1>
+    <p class="tagline">TY IT Student | SGGSIE&T Vishnupuri, Nanded</p>
+    <p class="role">Sub-Coordinator of SWAG | Frontend Web Developer</p>
+  </header>
+
+  <!-- ✅ ABOUT SECTION -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      Hello! I’m <strong>Shital Namdev Bhadre</strong>, a passionate IT student who enjoys creating meaningful and animated websites. I recently developed <strong>AgriDirect</strong> — a direct marketing platform that connects farmers and consumers.
+    </p>
+  </section>
+
+  <!-- ✅ SKILLS SECTION -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-container">
+      <div class="skill-card">
+        <h3>Frontend</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <ul>
+          <li>C</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>AgriDirect - Connecting Farmers and Consumers</h3>
+      <p>
+        A real-world platform to help farmers sell fruits, vegetables, dairy, and grains directly to consumers, with features like login, dashboards, geolocation, and order tracking.
+      </p>
+      <div class="project-gallery">
+        <img src="agridirect_home.png" alt="Home Page">
+        <img src="agridirect_signup.png" alt="Signup Page">
+        <img src="agridirect_consumer.png" alt="Consumer Dashboard">
+        <img src="agridirect_farmer.png" alt="Farmer Dashboard">
+        <img src="agridirect_sell_form.png" alt="Sell Form">
+        <img src="agridirect_login_success.png" alt="Login Success">
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>📧 Email: shital@gmail.com</p>
+    <p>🌍 Location: Godamgaon, Nanded, Maharashtra</p>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer>
+    <p>Made with ❤️ by <strong>Shital Namdev Bhadre</strong></p>
+  </footer>
+
+  <script>
+    // Add smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
